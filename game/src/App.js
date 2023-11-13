@@ -15,7 +15,6 @@ function App() {
         <>
           <Switch>
             <Route path="/" exact>
-              <h2> This is the homepage! </h2>
               <Header />
             </Route>
           </Switch>
