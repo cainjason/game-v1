@@ -7,17 +7,23 @@ import {
   Link
 } from "react-router-dom";
 import Header from './Components/Header';
+import styled from 'styled-components'
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
     <div className="app">
       <Router>
         <>
-          <Switch>
-            <Route path="/" exact>
-              <Header />
-            </Route>
-          </Switch>
+          <Header />
+            <AppBody>
+              <Sidebar />
+              <Switch>
+                <Route path="/" exact>
+                  {/*ReactPlayer*/}
+                </Route>
+              </Switch>
+            </AppBody>
         </>
       </Router>
     </div>
@@ -25,3 +31,5 @@ function App() {
 }
 
 export default App;
+
+const AppBody = styled.div``;
