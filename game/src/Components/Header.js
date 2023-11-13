@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Avatar } from "@material-ui/core";
 import AccessTimeIcon from "@material-ui/icons/AccessTime";
 import SearchIcon from "@material-ui/icons/Search";
+import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 
 function Header() {
   return (
@@ -21,7 +22,7 @@ function Header() {
       </HeaderSearch>
       {/*Header Right*/}
       <HeaderRight>
-
+        <HelpOutlineIcon />
       </HeaderRight>
     </HeaderContainer>
   )
