@@ -4,7 +4,11 @@ import styled from 'styled-components';
 function Sidebar() {
   return (
     <SidebarContainer>
-      
+      <SidebarHeader>
+        <SidebarInfo>
+
+        </SidebarInfo>
+      </SidebarHeader>
     </SidebarContainer>
   )
 }
@@ -12,3 +16,7 @@ function Sidebar() {
 export default Sidebar;
 
 const SidebarContainer = styled.div``;
+
+const SidebarHeader = styled.div``;
+
+const SidebarInfo = styled.div``;

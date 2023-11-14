@@ -39,6 +39,8 @@ const HeaderContainer = styled.div`
     padding: 10px 0;
     background-color: darkblue;
     color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 6);
+    border-radius: 50px;
 `;
 
 const HeaderLeft = styled.div`
@@ -70,6 +72,7 @@ const HeaderSearch = styled.div`
         text-align: center;
         min-width: 30vw;
         outline: none;
+        color: white;
     }
 `;
 
