@@ -20,7 +20,7 @@ function App() {
               <Sidebar />
               <Switch>
                 <Route path="/" exact>
-                  {/*ReactPlayer*/}
+                  {/*Chat*/}
                 </Route>
               </Switch>
             </AppBody>
@@ -32,4 +32,7 @@ function App() {
 
 export default App;
 
-const AppBody = styled.div``;
+const AppBody = styled.div`
+display: flex;
+height: 100vw;
+`;

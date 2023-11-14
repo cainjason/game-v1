@@ -1,21 +1,19 @@
 import React from 'react';
 import styled from "styled-components";
-import ReactPlayer from 'react-player';
+import ReactPlayer from './components/react-player';
 
 
 function ReactPlayer() {
   return (
-    <PlayerContainer>
-        <PlayerHeader>
-
-      {/* ReactPlayer */}
-        </PlayerHeader>
-    </PlayerContainer>
+    <ReactPlayerContainer>
+            <h2> ReactPlayer </h2>
+            <ReactPlayer url="https://fb.watch/ojBggejBEk/" />
+    </ReactPlayerContainer>
   )
 }
 
 export default ReactPlayer;
 
-const PlayerContainer = styled.div``;
+const ReactPlayerContainer = styled.div``;
 
-const PlayerHeader = styled.div``;
+const ReactPlayer = styled.div``;
