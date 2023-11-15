@@ -40,10 +40,9 @@ const SidebarHeader = styled.div`
     > .MuiSvgIcon-root {
         padding: 8px;
         color: gray;
-        font-size: 50px;
+        font-size: 40px;
         background-color: white;
         border-radius: 999px;
-        margin-left: 10px;
         cursor: pointer;
         :hover {
             opacity: 0.8;
@@ -51,4 +50,19 @@ const SidebarHeader = styled.div`
     }
 `;
 
-const SidebarInfo = styled.div``;
+const SidebarInfo = styled.div`
+    flex: 1;
+
+    > h2 {
+        font-size: 15px;
+        font-weight: 900;
+        margin-bottom: 5px;
+    }
+
+    > h3 {
+        display: flex;
+        font-size: 13px;
+        font-weight: 400;
+        align-items: center;
+    }
+`;
