@@ -7,7 +7,7 @@ function ReactPlayer() {
   return (
     <ReactPlayerContainer>
             <h2> ReactPlayer </h2>
-            <ReactPlayer url="https://fb.watch/ojBggejBEk/" />
+            <ReactPlayer url="" />
     </ReactPlayerContainer>
   )
 }
